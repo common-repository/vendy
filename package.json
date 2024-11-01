@@ -1,0 +1,27 @@
+{
+	"name": "alibitech-vendy",
+	"version": "1.0.0",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"type": "module",
+	"scripts": {
+		"build": "wp-scripts build",
+		"packages-update": "wp-scripts packages-update",
+		"start": "wp-scripts start",
+		"env": "wp-env",
+		"local": "npx wp-env start --update",
+		"stop": "npx wp-env stop"
+	},
+	"devDependencies": {
+		"@types/wordpress__block-editor": "^11.5.9",
+		"@types/wordpress__blocks": "^12.5.13",
+		"@types/wordpress__components": "^23.0.11",
+		"@wordpress/env": "^9.1.0",
+		"@wordpress/icons": "^9.41.0",
+		"@wordpress/primitives": "^3.48.0",
+		"@wordpress/scripts": "^27.0.0",
+		"gulp": "^4.0.2",
+		"gulp-zip": "^6.0.0",
+		"typescript": "^5.3.3"
+	}
+}

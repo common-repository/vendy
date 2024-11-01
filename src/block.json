@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "alibitech/vendy",
+	"version": "1.0.0",
+	"title": "Vendy",
+	"category": "widgets",
+	"description": "Embed a Vendy layout.",
+	"textdomain": "alibitech-vendy",
+	"editorScript": "file:./index.js",
+	"render": "file:./render.php",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./widget-embed.js",
+	"attributes": {
+		"layoutId": {
+			"type": "string"
+		},
+		"hostUrl": {
+			"type": "string",
+			"default": "https://app.shopvendy.ca"
+		}
+	}
+}
